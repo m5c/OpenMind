@@ -1,6 +1,6 @@
 # Openmind
 
-A combinatoric puzzle game.
+A code-breaking game.
 
 ![Screenshot](markdowndoc/gameplay.png)
 
@@ -34,8 +34,8 @@ java -jar target/OpenMind.jar
 
  * Hover your mouse over the lowest *Böppel*-row. Then scroll to select a colour.
  * Use the *Submit* button to enter a combination. Two number will appear:
-   * White: The amount of correctly coloured *Böppels*, on a correct spot. (Red)
-   * The amount of correctly coloured *Böppels*, on an incorrect spot. (White)
+   * Red: The amount of correctly coloured *Böppels*, on a correct spot.
+   * White: The amount of remaining correctly coloured *Böppels*, on an incorrect spot.
  * You win, if you submit the secret master combination within 11 guesses.
  * You loose, if you run out of guesses.
 
